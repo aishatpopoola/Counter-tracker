@@ -1,0 +1,5 @@
+/dist
+/build
+reportWebVitals.js
+App.test.js
+setupTests.js
