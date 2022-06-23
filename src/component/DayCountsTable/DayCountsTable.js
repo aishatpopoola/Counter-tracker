@@ -1,4 +1,5 @@
 import React from 'react';
+import './day_counts.css';
 
 const DayCountsTable = ({ dayCounts }) => (
   <table className="table table-striped">

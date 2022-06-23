@@ -1,0 +1,39 @@
+.section {
+  width: 600px;
+  padding: 50px 0;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 1px solid #0b6bf2;
+  overflow: hidden;
+  box-shadow: 0 0 1px;
+  border-radius: 4px;
+}
+
+.table {
+  width: 400px;
+  margin: 1rem auto;
+  background-color: transparent;
+  border: 0.5px solid #e8e8e8;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  text-align: left;
+}
+.table td,
+.table th {
+  padding: 0.75rem;
+}
+
+.table-tbody > tr {
+  -webkit-transition: all 0.3s, height 0s;
+  transition: all 0.3s, height 0s;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f1f3ff;
+}
