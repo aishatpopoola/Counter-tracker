@@ -7,6 +7,10 @@ Additional description about the project and its features.
 
 This project was built to keep count of the number of times the button "click me" is clicked and the counting restart after midnight when clicked. Built using React and its technlogies(React technologies used can be found below) 
 
+@Todo
+
+Project still needs to be deployed, I used Laravel 6 for the backend API which uses PHP 7.* while heroku was using 8.* to install the dependencies and leading to issues. While this is submitted i'll keep working towards finding a solution to deploying the backend code to be able to deploy this
+
 ## Features
 
 - Get and display all day counts
